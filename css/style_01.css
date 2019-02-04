@@ -40,7 +40,7 @@
   text-align: center;
 }
 .content-body {
-  background-image: url(../img/BK01.jpg);
+  background-image: url(./img/BK01.jpg);
 }
 
 .shop_box {
@@ -79,7 +79,7 @@ body {
   min-width: 1200px;
   max-width: 1200px;
   margin: 0 auto;
-  background-image:url(../img/BK02.jpg);
+  background-image:url(./img/BK02.jpg);
 }
 h1 {
   background-color: #000000;
