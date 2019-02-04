@@ -1,0 +1,231 @@
+#btn {
+  display: none;
+}
+.flex_box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.inner {
+  text-align: center;
+  background-color: #68c6e8c2;
+}
+.logo {
+  text-align: center;
+}
+.menu a {
+  margin: 0px 5px;
+}
+.nav ul {
+  padding: 0;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+}
+.nav a {
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-block;
+  border: solid 1px #fff;
+  width: 200px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.nav a:hover {
+  color: #333;
+  background-color: #fff;
+}
+.content-header {
+  text-align: center;
+}
+.content-body {
+  background-image: url(../img/BK01.jpg);
+}
+
+.shop_box {
+  border: solid 1px #fff;
+  margin: 5px;
+  flex-basis: 325px;
+}
+.shop_box img {
+  margin: 10px;
+  width: 280px;
+  height: 200px;
+  max-width: 325px;
+}
+.food-img img {
+  width: 300px;
+  height: 250px;
+}
+.footer {
+  text-align: center;
+}
+.footer .menu {
+  list-style: none;
+  display: -webkit-inline-box;
+  padding: 0;
+}
+.footer .menu li {
+  margin: 10px 0px;
+}
+.footer .menu a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  color: #fff;
+}
+body {
+  min-width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-image:url(../img/BK02.jpg);
+}
+h1 {
+  background-color: #000000;
+  border-top: 5px solid #558811;
+  border-bottom: 5px solid #558811;
+  color: #fff;
+  margin-bottom: 10px;
+}
+h2 {
+  background-color: #000000;
+  border-top: 5px solid #558811;
+  border-bottom: 5px solid #558811;
+  color: #fff;
+  margin-bottom: 10px;
+}
+p {
+  color: #fff;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+p.shop-name {
+  font-weight: bold;
+}
+
+/*areaページ（店舗詳細ページ）*/
+.area .shop-top {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+}
+.area .shop-top img {
+  width: 500px;
+  height: 400px;
+
+}
+.area .shop-top p {
+  margin: 0 25px;
+  width: 400px;
+}
+.area .food-img {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 20px 0;
+}
+.area .map {
+  margin: 50px;
+}
+
+.area ul.shop-list {
+  text-align: left;
+}
+.area .shop-list li {
+  border-bottom: dashed 1px #581;
+  padding: 5px;
+}
+
+
+@media screen  and (max-width:768px) {
+  #btn {
+  display: block;
+  background-color: yellow;
+  padding: 0px 5px 0px 5px;
+  text-align: center;
+  line-height: 25px;
+  position: fixed;
+  z-index: 1;
+  border-radius: 26px;
+  cursor: pointer;
+  }
+
+  .nav  {
+  padding: 0;
+  text-align: center;
+  background-color: blue;
+  position: fixed;
+  transform: translateY(-126%);
+  width: 100%;
+
+  }
+  .nav li {
+  display: block;
+  }
+  .menu a {
+  margin: 5px 0;
+  width: 100%;
+  }
+  /*-------------------------------*/
+  .active{
+  padding: 0;
+  text-align: center;
+  background-color: blue;
+  position: fixed;
+  transform: translateY(-26%);
+  transition: all 0.6s;
+  width: 100%;
+
+  }
+
+  .flex_box {
+  display: block;
+  }
+
+  .footer {
+  text-align: unset;
+  }
+  .footer .menu {
+    display: block;
+    text-align: center;
+  }
+  body {
+  background-image:url(../img/BK02.jpg);
+  min-width: 0px;
+  margin: 0;
+  }
+
+/*areaページ（店舗詳細ページ）*/
+.area .shop-top {
+  display: block;
+  padding: 0;
+}
+.area .shop-top img {
+  margin-left: 0px;
+  width: auto;
+  height: auto;
+}
+.area .shop-top p {
+  width: auto;
+}
+.area .food-img {
+  display: block;
+  margin-left: 0px;
+}
+
+.area .map {
+   margin: 0px;
+}
+.area iframe {
+  width: auto;
+}
+.area body {
+  background-image:url(../img/BK02.jpg);
+  min-width: 0px;
+  margin: 0;
+}
+
+}
