@@ -193,7 +193,7 @@ p.shop-name {
     text-align: center;
   }
   body {
-  background-image:url(../img/BK02.jpg);
+  background-image:url(./img/BK02.jpg);
   min-width: 0px;
   margin: 0;
   }
@@ -223,7 +223,7 @@ p.shop-name {
   width: auto;
 }
 .area body {
-  background-image:url(../img/BK02.jpg);
+  background-image:url(./img/BK02.jpg);
   min-width: 0px;
   margin: 0;
 }
